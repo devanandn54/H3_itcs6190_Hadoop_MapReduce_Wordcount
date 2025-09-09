@@ -113,6 +113,14 @@ To copy the output from HDFS to your local machine:
    Hadoop is used for big data
    ```
 
+** My Input:
+```Hello How are you doing today?
+Hope everything is going well in your side.
+Let's meet this month end and have some talks.
+Also make sure to invite all our mutual friends.
+Thank you will see you soon.
+   ```
+
 ## Expected output: 
  ```bash
 Hadoop 3
@@ -123,4 +131,45 @@ big 1
 data 1
 powerful 1
 world 1
+   ```
+
+## Obtained output: 
+ ```bash
+you     3
+your    2
+all     1
+Also    1
+friends.        1
+meet    1
+Hello   1
+well    1
+going   1
+How     1
+soon.   1
+invite  1
+sure    1
+Let's   1
+will    1
+have    1
+mutual  1
+input   1
+this    1
+everything      1
+own     1
+our     1
+talks.  1
+Thank   1
+side.   1
+Create  1
+Hope    1
+make    1
+see     1
+dataset 1
+some    1
+are     1
+and     1
+month   1
+end     1
+doing   1
+today?  1
    ```
