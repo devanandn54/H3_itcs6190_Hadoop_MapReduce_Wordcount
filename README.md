@@ -113,7 +113,7 @@ To copy the output from HDFS to your local machine:
    Hadoop is used for big data
    ```
 
-** My Input:
+## My Input:
 ```Hello How are you doing today?
 Hope everything is going well in your side.
 Let's meet this month end and have some talks.
@@ -173,3 +173,11 @@ end     1
 doing   1
 today?  1
    ```
+
+
+## Challenges faced:
+```
+1. Faced os and environment issues and figured out how to fix the issues for different environments.
+2. Also faced some dependency issues on macos with maven.
+3. Fixes it by installing through homebrew, rather than manually loading.
+```
